@@ -27,13 +27,14 @@ public class Main {
         ejemplares.add(revista2);
         ejemplares.add(revista3);
 
-        for(Ejemplar e: ejemplares){
-            if(e instanceof Libro)
+        for (Ejemplar e : ejemplares) {
+            if (e instanceof Libro) {
 
-            if(e instanceof Diario)
-                e
-            if(e instanceof Revista)
-                e
+            } else if (e instanceof Diario) {
+
+            } else if (e instanceof Revista) {
+
+            }
         }
     }
 }
